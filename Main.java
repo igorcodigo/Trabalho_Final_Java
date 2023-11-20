@@ -43,14 +43,14 @@ public class Main {
                 + livro1.getName() + employee1.verifyBookAvailability(livro1));
 
         System.out.println("nesse caso, ao pedir para alugar o livro o funcionadio diz que o processo foi "
-                + employee1.alugar(livro1));
+                + employee1.borrowBook(livro1));
 
         System.out.println("se ao mesmo tempo mais alguem quiser alugar o memso livro o funcionadio diz que "
-                + employee1.alugar(livro1));
+                + employee1.borrowBook(livro1));
 
         System.out.println(
                 "antes de mais alguem alugar é preciso devolver o livro, onde o funcionario dira que o processo "
-                        + employee1.devolver(livro1));
+                        + employee1.returnBook(livro1));
 
         var shelf1 = new Shelf();
         var manyBooks = createManyBooks(3);

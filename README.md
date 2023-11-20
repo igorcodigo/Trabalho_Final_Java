@@ -5,4 +5,4 @@
 3. Maurício Conde Ramon 
 4. Andrew Pires 
 5. Bárbara Bezerra Alves
-6. Vinicius
+6. Vinícius Linhares Alves de Oliveira
